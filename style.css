@@ -1,0 +1,232 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.toggler-icon{
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: white;
+
+}
+.slides
+{
+    background-image: linear-gradient(to top right,rgba(0,0,0.0), rgba(0,0,0,.1)), url(./img/slide/slide-1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 100%;
+    opacity: 2;
+}
+.slides2
+{
+    background-image: linear-gradient(to top right,rgba(0,0,0.51), rgba(0,0,0,.3)),url(./img/slide/slide-2.jpg);
+}
+.slides3
+{
+    background-image: linear-gradient(to top right,rgba(0,0,0.51), rgba(0,0,0,.3)),url(./img/slide/slide-3.jpg);
+}
+.sticknav
+{
+    background-color: #00000070 !important;
+    /* opacity: 3; */
+    transition: 1s;
+}
+.span1{
+    color: #FFBB03;
+}
+.btn1{
+    width: 120px;
+    height: 40px;
+    background-color:#FFBB03 ;
+    border-radius: 10px;
+
+}
+.btn2{
+    width:120px;
+    /* padding:10px; */
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #FFBB03;
+    background: transparent;
+    outline: none;
+    color: white;
+    transition-duration: .5s;
+    margin-left: 10px;
+}
+.btn2:hover{
+    background-color: #FFBB03;
+}
+.card11{
+    box-shadow: 0px 0px 20px 0px gray;
+    transition-duration: .5s;
+
+}
+.card11:hover{
+    background-color: #FFBB03;
+}
+.card1{
+    margin-top: 15px;
+    transition-duration: .5s;
+}
+.card11:hover .card1{
+    margin-top: 0;
+    background-color: #FFBB03;
+    color: white;
+}
+.btn3{
+    width: 100px;
+    height: 40px;
+    background-color: #FFBB03;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.btn4{
+    width: 100px;
+    height: 40px;
+    background-color:white;
+    color:black;
+    border-radius: 20px;
+    border: none;
+    border: 2px solid #FFBB03;
+    font-size: 17px;
+    transition-duration: .5s;
+}
+.btn4:hover{
+    background-color: #FFBB03;
+    color: white;
+}
+
+/* ----------------------------------- */
+.specials {
+    overflow: hidden;
+  }
+  
+  .specials .nav-tabs {
+    border: 0;
+  }
+  
+  .specials .nav-link {
+    border: 0;
+    /* padding: 12px 15px 12px 0; */
+    transition: 0.3s;
+    color: #433f39;
+    border-radius: 0;
+    /* border-right: 2px solid #e8e7e4; */
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  .specials .nav-link:hover {
+    color: #ffb03b;
+  }
+  
+  .specials .nav-link.active {
+    color: #ffb03b;
+    /* border-color: #ffb03b; */
+  }
+  
+  .specials .tab-pane.active {
+    -webkit-animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .specials .details h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #433f39;
+  }
+  
+  .specials .details p {
+    color: #777777;
+  }
+  
+  .specials .details p:last-child {
+    margin-bottom: 0;
+  }
+
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 20px;
+  }
+  .con5{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.308) ,rgba(0, 0, 0, 0.308) ), url(./img/events-bg.jpg);
+  }
+
+.col10{
+  overflow: hidden;
+  height: 35vh; 
+   padding: 0;
+}
+.col10 >img{
+  transform: scale(1);
+  transition-duration: .5s;
+  width: 100%;
+  height: 100%;
+}
+.col10:hover .img10{
+  transform: scale(1.1);
+} 
+
+#footer {
+  background: #35322d;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffb03b;
+  position: relative;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #46423b;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background: #ffb03b;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+
+#footer .credits {
+  font-size: 13px;
+}
+
+
